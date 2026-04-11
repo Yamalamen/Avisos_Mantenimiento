@@ -64,13 +64,7 @@ except Exception:
 
 # ── Login ────────────────────────────────────────────────────────────────────
 authenticator.login(
-    location="main",
-    fields={
-        "Form name": "🔐 Acceso — Mantenimiento Sedes Judiciales",
-        "Username": "Usuario",
-        "Password": "Contraseña",
-        "Login": "Entrar",
-    },
+    location="main"
 )
 name = st.session_state.get("name")
 authentication_status = st.session_state.get("authentication_status")
