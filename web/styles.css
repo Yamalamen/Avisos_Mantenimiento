@@ -227,6 +227,32 @@ em { font-style: italic; color: var(--orange); }
   to { transform: translateX(-50%); }
 }
 
+/* ============ BRAND ANIM ============ */
+.brand-anim {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 60px var(--pad) 20px;
+  text-align: center;
+}
+.brand-anim figure {
+  margin: 0 auto;
+  max-width: 720px;
+}
+.brand-anim img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  background: var(--cream-2);
+}
+.brand-anim figcaption {
+  margin-top: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
 /* ============ INTRO ============ */
 .intro {
   max-width: var(--maxw);
