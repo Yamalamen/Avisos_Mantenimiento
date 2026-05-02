@@ -430,7 +430,9 @@ em { font-style: italic; color: var(--orange); }
   aspect-ratio: 4 / 5;
   position: sticky;
   top: 100px;
+  background: var(--cream-2);
 }
+.process__image img { object-position: center; }
 .process__image img {
   width: 100%; height: 100%;
   object-fit: cover;
