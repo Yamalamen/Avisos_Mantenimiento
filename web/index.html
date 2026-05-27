@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>pinwyno — Digital Developers</title>
+  <meta name="description" content="Pinwyno es un estudio de desarrollo web. Diseñamos y programamos páginas que respiran, convierten y se sienten vivas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo-mark.svg" type="image/svg+xml" />
+</head>
+<body>
+
+  <!-- ========= NAV ========= -->
+  <header class="nav" data-nav>
+    <a href="#top" class="nav__logo" aria-label="pinwyno">
+      <img src="assets/logo.svg" alt="pinwyno — Digital Developers" />
+    </a>
+    <nav class="nav__links">
+      <a href="#work">Work</a>
+      <a href="#about">Studio</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav__cta">Empezar proyecto →</a>
+    <button class="nav__burger" aria-label="Abrir menú" data-burger>
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ========= HERO ========= -->
+  <section class="hero" id="top">
+    <div class="hero__pill" data-reveal>● Disponibles para nuevos proyectos · 2026</div>
+
+    <h1 class="hero__title">
+      <span data-reveal>Construimos webs</span>
+      <span data-reveal><em>que respiran</em>,</span>
+      <span data-reveal>convierten y se</span>
+      <span data-reveal>sienten <em>vivas</em>.</span>
+    </h1>
+
+    <div class="hero__meta">
+      <p data-reveal>
+        Somos <strong>pinwyno</strong> — un pequeño estudio de desarrollo digital. Diseñamos
+        y programamos productos web a medida, sin plantillas tristes y sin humo.
+      </p>
+      <a class="hero__scroll" href="#work" aria-label="Bajar">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M6 14l6 6 6-6"/></svg>
+        Scroll
+      </a>
+    </div>
+
+    <figure class="hero__image" data-reveal>
+      <img src="assets/hero.jpg" alt="Equipo pinwyno trabajando" loading="eager" />
+      <figcaption>Madrid · Remoto · Donde haga falta</figcaption>
+    </figure>
+  </section>
+
+  <!-- ========= MARQUEE ========= -->
+  <section class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Web Design</span><span>✺</span>
+      <span>Frontend</span><span>✺</span>
+      <span>Backend</span><span>✺</span>
+      <span>E-commerce</span><span>✺</span>
+      <span>Branding</span><span>✺</span>
+      <span>SEO</span><span>✺</span>
+      <span>Web Design</span><span>✺</span>
+      <span>Frontend</span><span>✺</span>
+      <span>Backend</span><span>✺</span>
+      <span>E-commerce</span><span>✺</span>
+      <span>Branding</span><span>✺</span>
+      <span>SEO</span><span>✺</span>
+    </div>
+  </section>
+
+  <!-- ========= BRAND ANIM ========= -->
+  <section class="brand-anim" aria-label="pinwyno en movimiento">
+    <figure data-reveal>
+      <img src="assets/pinwyno-anim.gif" alt="Animación pinwyno" loading="lazy" />
+      <figcaption>· Esto somos nosotros ·</figcaption>
+    </figure>
+  </section>
+
+  <!-- ========= INTRO ========= -->
+  <section class="intro" id="about">
+    <p class="eyebrow" data-reveal>(01) — El estudio</p>
+    <h2 class="intro__text" data-reveal>
+      Código limpio, diseño con criterio y un poquito de
+      <span class="intro__highlight">obsesión sana</span> por los detalles.
+      Trabajamos con marcas que no se conforman con una web del montón.
+    </h2>
+  </section>
+
+  <!-- ========= WORK ========= -->
+  <section class="work" id="work">
+    <header class="section-head">
+      <p class="eyebrow" data-reveal>(02) — Selected work</p>
+      <h2 data-reveal>Proyectos recientes</h2>
+    </header>
+
+    <div class="work__grid">
+      <a class="work__item work__item--big" href="#" data-reveal>
+        <div class="work__media"><img src="assets/work-1.jpg" alt="" /></div>
+        <div class="work__meta">
+          <h3>Northwave Studio</h3>
+          <span>Branding · Web · 2025</span>
+        </div>
+      </a>
+      <a class="work__item" href="#" data-reveal>
+        <div class="work__media"><img src="assets/work-2.jpg" alt="" /></div>
+        <div class="work__meta">
+          <h3>Lume Cosmetics</h3>
+          <span>E-commerce · Shopify · 2025</span>
+        </div>
+      </a>
+      <a class="work__item" href="#" data-reveal>
+        <div class="work__media"><img src="assets/work-3.jpg" alt="" /></div>
+        <div class="work__meta">
+          <h3>Atlas Architects</h3>
+          <span>Portfolio · CMS · 2024</span>
+        </div>
+      </a>
+      <a class="work__item work__item--wide" href="#" data-reveal>
+        <div class="work__media"><img src="assets/work-4.jpg" alt="" /></div>
+        <div class="work__meta">
+          <h3>Mora & Co.</h3>
+          <span>Web app · Next.js · 2024</span>
+        </div>
+      </a>
+    </div>
+
+    <a href="#contact" class="ghost-link" data-reveal>Ver todos los casos →</a>
+  </section>
+
+  <!-- ========= SERVICES ========= -->
+  <section class="services" id="services">
+    <header class="section-head">
+      <p class="eyebrow" data-reveal>(03) — Services</p>
+      <h2 data-reveal>Lo que hacemos<br/>(y bien hecho).</h2>
+    </header>
+
+    <ul class="services__list">
+      <li data-reveal>
+        <span class="services__num">01</span>
+        <h3>Diseño Web</h3>
+        <p>Interfaces con criterio, jerarquía y personalidad. Nada de plantillas recicladas.</p>
+        <span class="services__tag">UI · UX · Art Direction</span>
+      </li>
+      <li data-reveal>
+        <span class="services__num">02</span>
+        <h3>Desarrollo a medida</h3>
+        <p>Webs rápidas, accesibles y mantenibles. Next.js, Astro, Webflow o lo que pida tu proyecto.</p>
+        <span class="services__tag">Frontend · Backend · Headless</span>
+      </li>
+      <li data-reveal>
+        <span class="services__num">03</span>
+        <h3>E-commerce</h3>
+        <p>Tiendas que venden de verdad. Shopify, WooCommerce y soluciones a medida.</p>
+        <span class="services__tag">Shopify · Woo · Stripe</span>
+      </li>
+      <li data-reveal>
+        <span class="services__num">04</span>
+        <h3>SEO &amp; Performance</h3>
+        <p>Lighthouse 100, Core Web Vitals en verde y posicionamiento que se nota en facturación.</p>
+        <span class="services__tag">SEO · Analytics · Speed</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ========= PROCESS ========= -->
+  <section class="process" id="process">
+    <header class="section-head">
+      <p class="eyebrow" data-reveal>(04) — Process</p>
+      <h2 data-reveal>Sin sorpresas raras.<br/>Solo cuatro pasos.</h2>
+    </header>
+
+    <ol class="process__list">
+      <li data-reveal><strong>Descubrimiento.</strong> Café (o llamada), preguntas incómodas y un brief que tenga sentido.</li>
+      <li data-reveal><strong>Diseño.</strong> Iteramos rápido. Te enseñamos pronto, decidimos juntos.</li>
+      <li data-reveal><strong>Desarrollo.</strong> Código limpio, despliegue continuo y cero magia negra.</li>
+      <li data-reveal><strong>Lanzamiento.</strong> Cuidamos la web después de salir. No desaparecemos.</li>
+    </ol>
+
+    <figure class="process__image" data-reveal>
+      <img src="assets/process.jpg" alt="Pantallas con código en el estudio" />
+    </figure>
+  </section>
+
+  <!-- ========= TESTIMONIAL ========= -->
+  <section class="testimonial">
+    <p class="eyebrow" data-reveal>(05) — Voces</p>
+    <blockquote data-reveal>
+      “Pinwyno entendió en una llamada lo que tres agencias no entendieron en seis meses.
+      La nueva web nos ha multiplicado x3 los leads cualificados.”
+    </blockquote>
+    <p class="testimonial__author" data-reveal>— Clara M., CMO de Northwave</p>
+  </section>
+
+  <!-- ========= CTA ========= -->
+  <section class="cta" id="contact">
+    <p class="eyebrow" data-reveal>(06) — Hablemos</p>
+    <h2 data-reveal>
+      ¿Tienes una idea? <em>La cocinamos.</em>
+    </h2>
+    <p data-reveal>
+      Escríbenos y te respondemos en menos de 24h. Sin formularios eternos, sin reuniones que podrían ser un email.
+    </p>
+    <div class="cta__actions" data-reveal>
+      <a class="btn btn--primary" href="mailto:contacto@pinwyno.com">contacto@pinwyno.com</a>
+      <a class="btn btn--ghost" href="https://wa.me/34622889868?text=%C2%A1Hola%20pinwyno!%20Me%20gustar%C3%ADa%20hablar%20de%20un%20proyecto." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true" style="vertical-align:-3px;margin-right:6px"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51l-.57-.01c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.89 1.22 3.09.15.2 2.1 3.21 5.09 4.5.71.31 1.27.49 1.7.63.71.23 1.36.2 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm0 18.15c-1.52 0-3.01-.41-4.31-1.18l-.31-.18-3.21.84.86-3.13-.2-.32a8.21 8.21 0 0 1-1.27-4.37c0-4.54 3.69-8.23 8.24-8.23 2.2 0 4.27.86 5.83 2.41a8.18 8.18 0 0 1 2.4 5.83c0 4.54-3.69 8.23-8.23 8.23z"/></svg>
+        WhatsApp →
+      </a>
+    </div>
+    <p class="cta__phone" data-reveal>+34 622 88 98 68</p>
+  </section>
+
+  <!-- ========= FOOTER ========= -->
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="pinwyno" />
+        <p>Estudio digital. Hacemos webs con flow desde 2022.</p>
+      </div>
+      <div>
+        <h4>Estudio</h4>
+        <a href="#about">Sobre nosotros</a>
+        <a href="#work">Trabajos</a>
+        <a href="#process">Proceso</a>
+      </div>
+      <div>
+        <h4>Servicios</h4>
+        <a href="#services">Diseño Web</a>
+        <a href="#services">Desarrollo</a>
+        <a href="#services">E-commerce</a>
+        <a href="#services">SEO</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <a href="mailto:contacto@pinwyno.com">contacto@pinwyno.com</a>
+        <a href="https://wa.me/34622889868" target="_blank" rel="noopener">WhatsApp · +34 622 88 98 68</a>
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Behance</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 pinwyno · Digital Developers</span>
+      <span>Hecho con ☕ y mucho flow</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
